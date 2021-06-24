@@ -248,3 +248,89 @@ right:0;
 .case-company img{
  width: 70%;
 }
+
+
+main{
+margin-top: 285px;
+text-align: center;
+}
+
+
+
+
+.features {
+  display: grid;
+  font-family: "Alegreya", serif;
+  /* grid-template-columns: 300px 300px; */
+  /* grid-template-columns: repeat(2,300px); */
+    /* grid-template-columns: 500px 1fr; */
+    /* grid-template-columns: 1fr 1fr; */
+
+
+   /* grid-template-columns: repeat(2, 1fr);*/
+                     /* grid-template-rows: repeat(2, 330px); */
+   /* height: 500px; */
+    grid-template : repeat(2, 330px) / repeat(2,1fr); 
+    background-color: #025157; 
+}
+
+.feature-art{
+background-color: lightcyan;
+margin: 10px;
+width: 40%;
+height: 50px;
+
+}
+
+.features h3{
+  font-family: "Helvetica", serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+
+.features  p {
+  font-family: "Helvetica", serif;
+  font-size: 16px;
+  color: lightgray;
+  
+}
+
+.features  img {
+  width: 50px;
+  
+}
+
+.feature-image img{
+  width: 50%;
+  position: relative;
+  
+
+}
+
+
+.feature-card {
+  
+
+  /* margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+   */
+  
+ 
+
+  background-color: #fff;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  margin: 40px 30px ;
+}
+
+.features   a {
+  font-size: 16px;
+  color:green;
+  
+}
